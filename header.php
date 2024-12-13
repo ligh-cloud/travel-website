@@ -16,7 +16,7 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="clients.php">Clients</a></li>
                 <li><a href="add_client.php">Add Client</a></li>
-                <li><a href="activities.php">Activities</a></li>
+                <li><a href="reservation.php">Activities</a></li>
             </ul>
         </nav>
     </header>

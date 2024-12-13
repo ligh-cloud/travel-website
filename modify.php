@@ -55,14 +55,14 @@ elseif($_SERVER['REQUEST_METHOD'] == 'POST' && (empty(trim($name)) || empty(trim
     <div class="form-group">        
         <label for="name">First Name:</label>        
         <input type="text" id="name" name="name" placeholder="Enter first name"                 
-               pattern="[A-Za-z\s]+" title="Only letters and spaces allowed"
+                title="Only letters and spaces allowed"
                value="<?php echo isset($client['name']) ? htmlspecialchars($client['name']) : "enter name";
 ?>">    
     </div>      
     <div class="form-group">        
         <label for="prenom">Last Name:</label>        
         <input type="text" id="prenom" name="prenom" placeholder="Enter last name"                 
-               pattern="[A-Za-z\s]+" title="Only letters and spaces allowed"
+                title="Only letters and spaces allowed"
                value="<?php echo isset($client['prenom']) ? htmlspecialchars($client['prenom']) : ''; ?>">    
     </div>      
     <div class="form-group">        
