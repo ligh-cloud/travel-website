@@ -1,6 +1,6 @@
 <?php
 require 'db_connection.php';
-
+ include 'header.php';
 
 if(isset($_GET['id']) && is_numeric($_GET['id'])){
     $modify_id = intval($_GET['id']);
